@@ -1,0 +1,53 @@
+/* static position */
+p{
+    position: static;
+}
+/* by giving position as static nothing will change in the p tag as the position is by default static only */
+
+
+/* relative position */
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+/* display: inline-block property se saare blocks ek hi line mein aa jaenge */
+/* #box3{
+    position: relative;
+    left: 50px;
+    top: 100px;
+} */
+/* in relative positioning, the position is relative to the normal (initial) position */
+/* relative positioning mein left,right,top, bottom in 4 attributes se fark padta hai */
+/* top se ab C waala block 100px niche aa jaega aur left se 50px right mein aa jaega */
+
+
+
+/* fixed position */
+/* #box1{
+    position: fixed;
+} */
+.wrapper{
+    height:2000px;
+    width: 100vw;
+    background-color: yellow;
+}
+/* iss se ab ye hua A block ki position hamari fix ho gyi scroll karne par bhi vo hilega nhi as it is wahin rhega */
+
+
+
+/* absolute position */
+#box3{
+    position:absolute;
+    top: 100px;
+    left: 50px;
+}
+
+
+/* sticky position */
+#box4{
+    position: sticky;
+    top: 0px;
+}
