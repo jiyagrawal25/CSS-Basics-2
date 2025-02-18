@@ -1,0 +1,23 @@
+.box{
+    background-color: aquamarine;
+    margin:200px;
+    transform: translate(100px, 200px);
+    transform: translateX(100px);
+    transform: translateY(100px);
+
+    transform: rotate(-45deg);
+
+    transform:scale(2);
+    transform:scale(1,4);
+    transform:scaleX(2);
+    transform:scaleY(4);
+
+    transform: skew(20deg);
+    transform: skew(-45deg);
+}
+/* transalte mein pehle horizontal shift hoga fir vertical shift hoga */
+/* x aur y axis mein hum alag se bhi changes kar sakte hain */
+/* angle se bhi hum rotate kar sakte hain - sign lagane se anticlockwise movement show hoga aur bina - sign ke clockwise */
+/* scale mein pehle horizontally stretch hoga fir vertically stretch hoga */
+/* in scale we can also use point values */
+/* skew se vo tilt ho jaega jo bhi angle likha hai uss se hamare case mein 20 deg se tilt ho jaega and - sig is used to tilt in opposite direction */
