@@ -1,0 +1,22 @@
+h1{
+    text-shadow: 3px 3px;
+    text-shadow: 3px 3px 3px;
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red, 5px 5px 5px green;
+}
+/* here first 3px specifies the horixontal length, second one tells the vertical length and the third one tells the blur effect wich is optional */
+/* we can also create two shadows at a time like in the last line of code red and green shadows are made */
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 15px;
+    box-shadow: 10px 10px 15px green;
+    box-shadow: 10px 10px 15px green, 10px 10px 15px brown;
+    box-shadow: -10px -10px 15px green, 10px 10px 15px brown;
+    color: red;
+}
+/* the shadow of the box will be of the same color as of the text */
+/* and to change the color of the box-shadow from the text color you can additionally give a color in box-shadow property as in our case I've given green */
+/* by giving negative values we can change the direction of the shadow */
