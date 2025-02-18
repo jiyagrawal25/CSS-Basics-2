@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+/* translation */
+.translated{
+    transform:perspective(15px) translateZ(-10px);
+}
+/* perspective se hum third axis that is z-axis usko activate kar rhe hain */
+/* aur 15px ka ye matlab hai ki meri ankhon se leke browser ka jo distance hai, vo 15px hai vo perspective waale bracket mein aaega */
+/* -10px ka meaning hai jo block hai vo andar ki taraf 10px gaya hai matlab dur jaega agar - sign nhi lagate toh vo bahr ki taraf move hota */
+
+/* rotation and scaling */
+.scaled{
+    margin-left: 200px;
+    transform:rotateZ(30deg)
+    /* transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg); */
+}
+/* translation aur scaling ke case mein perspective ki zarurat padti hai par rotation ke liye nhi */
